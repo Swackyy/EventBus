@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.28)
-project(EventBus VERSION 1.0.0 DESCRIPTION "A versatile and secure EventBus system for C++")
+project(EventBus VERSION 1.0.0 DESCRIPTION "A versatile EventBus system for C++")
 
 set(CMAKE_CXX_STANDARD 17 CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
 
