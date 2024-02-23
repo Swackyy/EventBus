@@ -8,7 +8,7 @@ add_library(EventBus SHARED src/eventbus.cpp
         src/event.cpp)
 
 add_executable(test test/main.cpp
-        test/TestEvent.cpp)
+        test/testevent.cpp)
 
 set_target_properties(EventBus PROPERTIES
         PUBLIC_HEADER include/eventbus.h)
