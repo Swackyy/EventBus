@@ -10,7 +10,7 @@ add_library(EventBus SHARED src/eventbus.cpp
 add_executable(test test/main.cpp
         test/testevent.cpp)
 
-set_target_properties(EventBus PROPERTIES
-        PUBLIC_HEADER include/eventbus.h)
+target_sources(EventBus PUBLIC
+        include/eventbus.h)
 
 target_link_libraries(test EventBus)
