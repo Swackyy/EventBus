@@ -7,6 +7,8 @@ class CompoundString {
     std::unordered_map<std::string, std::string> m_members;
 
     void putInternal(const std::string& identifier, const std::string& value);
+
+    static bool endsWith(const std::string& string, const char& c);
 public:
     CompoundString() = default;
 
