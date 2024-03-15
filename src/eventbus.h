@@ -13,7 +13,11 @@ public:
 
     bool createEventId(const std::string& eventId);
 
+    bool removeEventId(const std::string& eventId);
+
     bool addListener(const std::string& eventId, void(*listener)(CompoundString*));
+
+    bool removeListener(const std::string& eventId, void(*listener)(CompoundString*));
 
     bool post(const std::string& eventId, CompoundString* compound);
 };

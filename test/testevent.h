@@ -9,6 +9,7 @@ public:
 
     TestEvent* deserialize(CompoundString &compound) override;
 
+    // Basic setters and getters
     void setDouble(double value);
 
     [[nodiscard]] double getDouble() const;
